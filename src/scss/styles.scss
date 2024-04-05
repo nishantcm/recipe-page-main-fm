@@ -15,7 +15,31 @@
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
 }
-
+.container{
+    background-color: var(--White);
+}
 .head{
+    font-family: "Young Serif", serif;
+    color: var(--Dark-Charcoal);
+}
+.sub-head{
+    font-family: "Young Serif", serif;
+    color: var(--Nutmeg);
+}
+.para{
     font-family: "Outfit", sans-serif;
+    color: var(--Wenge-Brown);
+    font-size: 16px;
+}
+h5{
+    color: var(--Dark-Raspberry);
+}
+li{
+    color: var(--Dark-Raspberry);
+}
+.sub-descripe{
+    color: var(--Wenge-Brown);
+}
+.card-theme{
+    background-color: var(--Rose-White);
 }
