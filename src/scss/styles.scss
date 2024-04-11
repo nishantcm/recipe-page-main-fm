@@ -15,7 +15,7 @@
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
 }
-.container{
+body{
     background-color: var(--White);
 }
 .head{
@@ -26,8 +26,8 @@
     font-family: "Young Serif", serif;
     color: var(--Nutmeg);
 }
-.sub-content, .categories{
-    color: var(--Nutmeg);
+.sub-content, ol{
+    color: var(--Nutmeg) !important;
 }
 .para{
     font-family: "Outfit", sans-serif;
@@ -40,9 +40,24 @@ h5{
 li{
     color: var(--Dark-Raspberry);
 }
-.sub-descripe{
+.sub-describe{
     color: var(--Wenge-Brown);
 }
 .card-theme{
     background-color: var(--Rose-White);
+}
+.sub-content{
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
+@media (min-width: 376px){
+    body{
+        background-color: var(--Eggshell);
+        height: 100% !important;
+    }
+    .images{
+        padding: 2rem;
+        padding-bottom: 0;
+        border-radius: 10px;
+    }
 }
